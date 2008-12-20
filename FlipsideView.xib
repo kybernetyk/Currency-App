@@ -36,6 +36,19 @@
 				<int key="NSvFlags">292</int>
 				<object class="NSMutableArray" key="NSSubviews">
 					<bool key="EncodedWithXMLCoder">YES</bool>
+					<object class="IBUIImageView" id="547323094">
+						<reference key="NSNextResponder" ref="242216480"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrameSize">{320, 465}</string>
+						<reference key="NSSuperview" ref="242216480"/>
+						<bool key="IBUIOpaque">NO</bool>
+						<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
+						<bool key="IBUIUserInteractionEnabled">NO</bool>
+						<object class="NSCustomResource" key="IBUIImage">
+							<string key="NSClassName">NSImage</string>
+							<string key="NSResourceName">back.png</string>
+						</object>
+					</object>
 					<object class="IBUITextView" id="959716608">
 						<reference key="NSNextResponder" ref="242216480"/>
 						<int key="NSvFlags">274</int>
@@ -179,6 +192,7 @@ CgoDA8KpIDIwMDggZmx1eGZvcmdlA</string>
 							<reference ref="959716608"/>
 							<reference ref="291599599"/>
 							<reference ref="895219336"/>
+							<reference ref="547323094"/>
 						</object>
 						<reference key="parent" ref="360949347"/>
 						<string key="objectName">Flipside View</string>
@@ -203,6 +217,11 @@ CgoDA8KpIDIwMDggZmx1eGZvcmdlA</string>
 						<reference key="object" ref="291599599"/>
 						<reference key="parent" ref="242216480"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">50</int>
+						<reference key="object" ref="547323094"/>
+						<reference key="parent" ref="242216480"/>
+					</object>
 				</object>
 			</object>
 			<object class="NSMutableDictionary" key="flattenedProperties">
@@ -217,6 +236,7 @@ CgoDA8KpIDIwMDggZmx1eGZvcmdlA</string>
 					<string>45.IBPluginDependency</string>
 					<string>46.IBPluginDependency</string>
 					<string>48.IBPluginDependency</string>
+					<string>50.IBPluginDependency</string>
 				</object>
 				<object class="NSMutableArray" key="dict.values">
 					<bool key="EncodedWithXMLCoder">YES</bool>
@@ -224,6 +244,7 @@ CgoDA8KpIDIwMDggZmx1eGZvcmdlA</string>
 					<string>UIResponder</string>
 					<string>FlipsideView</string>
 					<string>{{216, 256}, {320, 460}}</string>
+					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -250,7 +271,7 @@ CgoDA8KpIDIwMDggZmx1eGZvcmdlA</string>
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">49</int>
+			<int key="maxID">50</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">

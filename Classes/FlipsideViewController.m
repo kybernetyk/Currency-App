@@ -11,8 +11,9 @@
 
 @implementation FlipsideViewController
 
-- (void)viewDidLoad {
-	self.view.backgroundColor = [UIColor viewFlipsideBackgroundColor];		
+- (void)viewDidLoad 
+{
+	//self.view.backgroundColor = [UIColor viewFlipsideBackgroundColor];		
 }
 
 

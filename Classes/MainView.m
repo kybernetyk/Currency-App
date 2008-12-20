@@ -773,7 +773,8 @@
  If the view is stored in the nib file, when it's unarchived it's sent -initWithCoder:.
  This is the case in the example as provided.  See also initWithFrame:.
  */
-- (id)initWithCoder:(NSCoder *)coder {
+- (id)initWithCoder:(NSCoder *)coder 
+{
 	//[UIApplication sharedApplication].networkActivityIndicatorVisible = YES;	
 	if (self = [super initWithCoder:coder]) 
 	{
