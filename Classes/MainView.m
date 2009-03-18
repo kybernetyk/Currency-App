@@ -15,6 +15,8 @@
 #import "Reachability.h"
 #import "DetailViewController.h"
 
+BOOL mayRotate = YES;
+
 @implementation MainView
 
 @synthesize lastUpdated;
@@ -247,6 +249,7 @@
 - (IBAction) addViewReturnSave: (id) sender
 {
 //	[UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
+	mayRotate = YES;
 	NSInteger from_code_index = [pickerView selectedRowInComponent: 0];
 	NSInteger to_code_index = [pickerView selectedRowInComponent: 1];
 
@@ -286,6 +289,7 @@
 - (IBAction) addViewReturnCancel: (id) sender
 {
 	
+	mayRotate = YES;
 	[UIView beginAnimations:nil context:NULL];
 	[UIView setAnimationDuration:0.7];
 	[UIView setAnimationTransition:UIViewAnimationTransitionFlipFromRight forView:self cache:YES];	
@@ -295,6 +299,7 @@
 
 - (IBAction) addCellToTableView: (id) sender
 {
+	mayRotate = NO;
 	if (UIDeviceOrientationIsLandscape([[UIDevice currentDevice] orientation]))
 	{
 		UIAlertView *a = [[UIAlertView alloc] initWithTitle:@"No space on screen!" message:@"Please turn your device to portrait mode!" delegate: nil cancelButtonTitle:@"ok" otherButtonTitles: nil];
@@ -451,7 +456,7 @@
 	if (editingStyle == UITableViewCellEditingStyleDelete)
 	{
 
-		NSObject *o = [calcList objectAtIndex:[indexPath row]];
+//		NSObject *o = [calcList objectAtIndex:[indexPath row]];
 		//NSLog(@"Deleting object:");
 		//NSLog(@"\tretain count: %i",[o retainCount]);
 		

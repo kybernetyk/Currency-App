@@ -164,13 +164,14 @@
 	
 }
 
+extern BOOL mayRotate;
 
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
 	// Return YES for supported orientations
-	NSLog(@"rotate?");
+//	NSLog(@"rotate?");
 
-	return YES;
+	return mayRotate;
 	//return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 

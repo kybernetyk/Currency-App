@@ -8,7 +8,7 @@
 		<string key="IBDocument.HIToolboxVersion">353.00</string>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="4"/>
+			<integer value="51"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -72,7 +72,7 @@
 								<float key="IBUIMaximumZoomScale">0.000000e+00</float>
 								<bool key="IBUIBouncesZoom">NO</bool>
 								<bool key="IBUIEditable">NO</bool>
-								<string type="base64-UTF8" key="IBUIText">Q3VycmVuY3kuYXBwIDEuMAotIGJ5IGZsdXhmb3JnZSAtCgpJcyB5b3VyIHZhbHV0YSBub3Qgb24gdGhl
+								<string type="base64-UTF8" key="IBUIText">Q3VycmVuY3kuYXBwIDEuMQotIGJ5IGZsdXhmb3JnZSAtCgpJcyB5b3VyIHZhbHV0YSBub3Qgb24gdGhl
 IGxpc3Q/Ckp1c3QgbWFpbCB1cyBhbmQgd2UnbGwgYWRkIGl0LgoKUGxlYXNlIG5vdGU6CllvdXIgaVBo
 b25lIHNob3VsZCBiZSBjb25uZWN0ZWQgdG8gdGhlIGludGVybmV0IHdoZW4geW91IHJ1bgpDdXJyZW5j
 eS5hcHAgZm9yIHRoZSBmaXJzdCB0aW1lIG9yIAphZGQgbmV3IGl0ZW1zIHRvIHRoZSB3YXRjaGxpc3Qu

@@ -8,7 +8,7 @@
 		<string key="IBDocument.HIToolboxVersion">353.00</string>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="9"/>
+			<integer value="1"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -33,7 +33,7 @@
 			</object>
 			<object class="IBUIView" id="191373211">
 				<reference key="NSNextResponder"/>
-				<int key="NSvFlags">274</int>
+				<int key="NSvFlags">310</int>
 				<object class="NSMutableArray" key="NSSubviews">
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<object class="IBUIImageView" id="329601780">
@@ -68,15 +68,19 @@
 							</object>
 						</object>
 					</object>
-					<object class="IBUIImageView" id="401523949">
+					<object class="IBUIWebView" id="977404498">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">274</int>
-						<string key="NSFrame">{{20, 49}, {280, 401}}</string>
+						<int key="NSvFlags">311</int>
+						<string key="NSFrame">{{0, 44}, {320, 416}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
+						<object class="NSColor" key="IBUIBackgroundColor">
+							<int key="NSColorSpace">1</int>
+							<bytes key="NSRGB">MSAxIDEgMAA</bytes>
+						</object>
 						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
+						<bool key="IBUIClipsSubviews">YES</bool>
 						<int key="IBUIContentMode">1</int>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
+						<bool key="IBUIMultipleTouchEnabled">YES</bool>
 					</object>
 				</object>
 				<string key="NSFrameSize">{320, 480}</string>
@@ -125,19 +129,19 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">chartImageView</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="401523949"/>
-					</object>
-					<int key="connectionID">16</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">navigationItem</string>
 						<reference key="source" ref="372490531"/>
 						<reference key="destination" ref="944218116"/>
 					</object>
 					<int key="connectionID">17</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">chartImageView</string>
+						<reference key="source" ref="372490531"/>
+						<reference key="destination" ref="977404498"/>
+					</object>
+					<int key="connectionID">20</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -158,7 +162,7 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="1058065768"/>
 							<reference ref="329601780"/>
-							<reference ref="401523949"/>
+							<reference ref="977404498"/>
 						</object>
 						<reference key="parent" ref="360949347"/>
 					</object>
@@ -202,8 +206,8 @@
 						<reference key="parent" ref="944218116"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">15</int>
-						<reference key="object" ref="401523949"/>
+						<int key="objectID">19</int>
+						<reference key="object" ref="977404498"/>
 						<reference key="parent" ref="191373211"/>
 					</object>
 				</object>
@@ -217,7 +221,7 @@
 					<string>1.IBEditorWindowLastContentRect</string>
 					<string>1.IBPluginDependency</string>
 					<string>11.IBPluginDependency</string>
-					<string>15.IBPluginDependency</string>
+					<string>19.IBPluginDependency</string>
 					<string>4.IBPluginDependency</string>
 					<string>6.IBPluginDependency</string>
 					<string>9.IBPluginDependency</string>
@@ -255,7 +259,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">18</int>
+			<int key="maxID">20</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
