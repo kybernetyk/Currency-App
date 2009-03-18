@@ -26,6 +26,6 @@
 @property (nonatomic, retain) UINavigationBar *flipsideNavigationBar;
 @property (nonatomic, retain) FlipsideViewController *flipsideViewController;
 
-- (IBAction)toggleView;
+- (IBAction)toggleView: (id) sender;
 
 @end

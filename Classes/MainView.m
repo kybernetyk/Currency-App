@@ -7,11 +7,13 @@
 //
 
 #import "MainView.h"
+#import "ForexAppDelegate.h"
 #import "ForexDataObject.h"
 #import "CurrencyDataObject.h"
 #import "AtomTableViewCell.h"
 #import "AddCell.h"
 #import "Reachability.h"
+#import "DetailViewController.h"
 
 @implementation MainView
 
@@ -149,7 +151,12 @@
 		rect.origin.x = 0;
 		mainBar.frame = rect;		
 		rect = editBar.frame;
-		rect.origin.x = -320;
+		if (UIDeviceOrientationIsLandscape([[UIDevice currentDevice] orientation]))
+			rect.origin.x = -480;
+		else
+			rect.origin.x = -320;
+		
+		//rect.origin.y = 0;
 		editBar.frame = rect;
 
 		[UIView commitAnimations];
@@ -190,12 +197,21 @@
 		[UIView setAnimationDuration:0.3];
 
 		CGRect rect = mainBar.frame;
-		rect.origin.x = 320;
+
+		if (UIDeviceOrientationIsLandscape([[UIDevice currentDevice] orientation]))
+			rect.origin.x = 480;
+		else
+			rect.origin.x = 320;
+		
+
 		mainBar.frame = rect;
 
 		rect = editBar.frame;
+
 		rect.origin.x = 0;
+		//rect.origin.y = 0;
 		editBar.frame = rect;
+//		NSLog(@"%f,%f,%f,%f2",rect.origin.x,rect.origin.y,rect.size.width,rect.size.height);
 		[UIView commitAnimations];
 
 
@@ -279,12 +295,36 @@
 
 - (IBAction) addCellToTableView: (id) sender
 {
+	if (UIDeviceOrientationIsLandscape([[UIDevice currentDevice] orientation]))
+	{
+		UIAlertView *a = [[UIAlertView alloc] initWithTitle:@"No space on screen!" message:@"Please turn your device to portrait mode!" delegate: nil cancelButtonTitle:@"ok" otherButtonTitles: nil];
+		
+		[a show];
+		
+		return;
+	}
 
 
 	[UIView beginAnimations:nil context:NULL];
 	[UIView setAnimationDuration:0.7];
 	[UIView setAnimationTransition:UIViewAnimationTransitionFlipFromLeft forView:self cache:YES];	
 //	[UIView setAnimationTransition:UIViewAnimationTransitionCurlDown forView:self cache:YES];	
+
+	/*if (UIDeviceOrientationIsLandscape([[UIDevice currentDevice] orientation]))
+	{
+		CGRect r = [addView frame];
+		[addView setFrame: CGRectMake(r.origin.x, r.origin.y, 480, 320)];
+		[addView setNeedsDisplay];
+	}
+	else
+	{
+		CGRect r = [addView frame];
+		[addView setFrame: CGRectMake(r.origin.x, r.origin.y, 320, 480)];
+		[addView setNeedsDisplay];
+	}*/
+	
+	
+	
 	[self addSubview: addView];	
 
 	
@@ -317,7 +357,7 @@
 		[flipsideViewController viewDidDisappear:YES];
 		[mainViewController viewDidAppear:YES];
 	}*/
-	[UIView commitAnimations];
+	//[UIView commitAnimations];
 	
 	
 	
@@ -556,9 +596,41 @@
 	[tableView deselectRowAtIndexPath:indexPath animated:YES];
 	
 	if ([indexPath row] == [calcList count])
+	{	
+		
+
+		
 		[self addCellToTableView: self];
+		return;
+	}
 	
-	////NSLog(@"Select %i",[indexPath row]);
+	
+
+	DetailViewController *dvc = [[DetailViewController alloc] initWithNibName:@"DetailView" bundle: nil];
+	[dvc setCallingView: self];
+	[dvc setObjectToShowHistory: [calcList objectAtIndex:indexPath.row]];
+	[dvc viewWillAppear: YES];	
+
+	//	[[UIDevice currentDevice] setOrientation: [[UIDevice currentDevice] orientation]];
+	
+
+	
+
+	
+	//NSLog(@"%@",[self superview]);
+	
+	
+	[UIView beginAnimations:nil context:NULL];
+	[UIView setAnimationDuration:1];
+	[UIView setAnimationTransition: UIViewAnimationTransitionCurlUp forView: [self superview] cache:YES];
+	
+	[[self superview] addSubview: [dvc view]];
+
+	[UIView commitAnimations];
+	
+//	[[UIApplication sharedApplication] setStatusBarOrientation: UIInterfaceOrientationLandscapeRight animated:NO];
+	
+	
 }
 
 /*- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath

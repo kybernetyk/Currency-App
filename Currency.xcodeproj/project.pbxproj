@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0305C56A0F701F870047F9BA /* offline.png in Resources */ = {isa = PBXBuildFile; fileRef = 0305C5690F701F870047F9BA /* offline.png */; };
+		037C1E800F6FD62500D8268E /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 037C1E7F0F6FD62500D8268E /* DetailView.xib */; };
+		037C1E8C0F6FD64500D8268E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 037C1E8B0F6FD64500D8268E /* DetailViewController.m */; };
 		1D3623260D0F684500981E51 /* ForexAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* ForexAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -34,6 +37,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0305C5690F701F870047F9BA /* offline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = offline.png; sourceTree = "<group>"; };
+		037C1E7F0F6FD62500D8268E /* DetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailView.xib; sourceTree = "<group>"; };
+		037C1E8A0F6FD64500D8268E /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		037C1E8B0F6FD64500D8268E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* ForexAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForexAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* ForexAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForexAppDelegate.m; sourceTree = "<group>"; };
@@ -89,6 +96,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		037C1E890F6FD63000D8268E /* DetailView Controller */ = {
+			isa = PBXGroup;
+			children = (
+				037C1E8A0F6FD64500D8268E /* DetailViewController.h */,
+				037C1E8B0F6FD64500D8268E /* DetailViewController.m */,
+			);
+			name = "DetailView Controller";
+			sourceTree = "<group>";
+		};
 		080E96DDFE201D6D7F000001 /* Application Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +151,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				037C1E890F6FD63000D8268E /* DetailView Controller */,
 				289233A00DB2D0730083E9F9 /* Main View */,
 				281C6CD70DB2D82200F60ACC /* Flipside View */,
 				080E96DDFE201D6D7F000001 /* Application Controllers */,
@@ -168,6 +185,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0305C5690F701F870047F9BA /* offline.png */,
 				EF836FF00EE610EE00BB76EE /* icon.png */,
 				EFC9DF1A0E4DD4FD0069F4C5 /* cell_1.png */,
 				EF7CE2080E4D005000AB9FC3 /* back.png */,
@@ -177,6 +195,7 @@
 				8D1107310486CEB800E47090 /* Info.plist */,
 				EF921B210E4B3EEC00A187D4 /* AtomCell.xib */,
 				EF8CB6E40E5C32030060EAF5 /* AddCell.xib */,
+				037C1E7F0F6FD62500D8268E /* DetailView.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -249,6 +268,8 @@
 				EFC9DF1C0E4DD4FD0069F4C5 /* cell_1.png in Resources */,
 				EF8CB6E50E5C32030060EAF5 /* AddCell.xib in Resources */,
 				EF836FF10EE610EE00BB76EE /* icon.png in Resources */,
+				037C1E800F6FD62500D8268E /* DetailView.xib in Resources */,
+				0305C56A0F701F870047F9BA /* offline.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +292,7 @@
 				EF921BA50E4B448900A187D4 /* AtomTableViewCell.m in Sources */,
 				EF4A93170E54411B00B723E2 /* Reachability.m in Sources */,
 				EF8CB6EB0E5C32CA0060EAF5 /* AddCell.m in Sources */,
+				037C1E8C0F6FD64500D8268E /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

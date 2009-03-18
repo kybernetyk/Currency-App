@@ -52,11 +52,15 @@
 	
 	// Set up the navigation bar
 	UINavigationBar *aNavigationBar = [[UINavigationBar alloc] initWithFrame:CGRectMake(0.0, 0.0, 320.0, 44.0)];
+	[aNavigationBar setAutoresizingMask: UIViewAutoresizingFlexibleWidth];
 	aNavigationBar.barStyle = UIBarStyleBlackOpaque;
 	self.flipsideNavigationBar = aNavigationBar;
+
+	
+	
 	[aNavigationBar release];
 	
-	UIBarButtonItem *buttonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(toggleView)];
+	UIBarButtonItem *buttonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(toggleView:)];
 	UINavigationItem *navigationItem = [[UINavigationItem alloc] initWithTitle:@"Currency.app"];
 	navigationItem.rightBarButtonItem = buttonItem;
 	[flipsideNavigationBar pushNavigationItem:navigationItem animated:NO];
@@ -66,8 +70,11 @@
 
 
 
-- (IBAction)toggleView {	
-
+- (IBAction)toggleView: (id) sender;
+{	
+	//if (UIDeviceOrientationIsLandscape([[UIDevice currentDevice] orientation]))
+	//	return;
+		
 //	MainView *m = [[self mainViewController] view];
 //	[m addCellToTableView: self];
 	
@@ -91,6 +98,22 @@
 	//[mainView retain];
 	
 	UIView *flipsideView = flipsideViewController.view;
+	
+	
+	if (UIDeviceOrientationIsLandscape([[UIDevice currentDevice] orientation]))
+	{
+		CGRect r = [flipsideView frame];
+		[flipsideView setFrame: CGRectMake(r.origin.x, r.origin.y, 480, 320)];
+		[self.flipsideNavigationBar setFrame: CGRectMake(0.0, 0.0, 480.0, 44.0)];
+	}
+	else
+	{
+		CGRect r = [flipsideView frame];
+		[flipsideView setFrame: CGRectMake(r.origin.x, r.origin.y, 320, 480)];
+		[self.flipsideNavigationBar setFrame: CGRectMake(0.0, 0.0, 320.0, 44.0)];
+	}
+	
+	
 	
 	//NSLog(@"************************************************");
 	//NSLog(@"toggling views");
@@ -145,8 +168,10 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
 	// Return YES for supported orientations
-	
-	return (interfaceOrientation == UIInterfaceOrientationPortrait);
+	NSLog(@"rotate?");
+
+	return YES;
+	//return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
 
