@@ -14,7 +14,7 @@
 
 @implementation RootViewController
 
-@synthesize infoButton;
+
 @synthesize flipsideNavigationBar;
 @synthesize mainViewController;
 @synthesize flipsideViewController;
@@ -32,10 +32,13 @@
 	self.mainViewController = viewController;
 	[viewController release];
 	
+	[mainViewController setRootController: self];
+	
 	//NSLog(@"Main View Controller retain count: %i",[mainViewController retainCount]);
 	
-	[self.view insertSubview:mainViewController.view belowSubview:infoButton];
+	//[self.view insertSubview:mainViewController.view belowSubview:infoButton];
 
+	[self.view addSubview: mainViewController.view];
 	
 	//MainView *m = [[self mainViewController] view];
 	
@@ -94,7 +97,7 @@
 		[self loadFlipsideViewController];
 	}
 	
-	UIView *mainView = mainViewController.view;
+
 	//[mainView retain];
 	
 	UIView *flipsideView = flipsideViewController.view;
@@ -102,14 +105,14 @@
 	
 	if (UIDeviceOrientationIsLandscape([[UIDevice currentDevice] orientation]))
 	{
-		CGRect r = [flipsideView frame];
-		[flipsideView setFrame: CGRectMake(r.origin.x, r.origin.y, 480, 320)];
+
+		[flipsideView setFrame: CGRectMake(0,0, 480, 320)];
 		[self.flipsideNavigationBar setFrame: CGRectMake(0.0, 0.0, 480.0, 44.0)];
 	}
 	else
 	{
-		CGRect r = [flipsideView frame];
-		[flipsideView setFrame: CGRectMake(r.origin.x, r.origin.y, 320, 480)];
+		
+		[flipsideView setFrame: CGRectMake(0, 0, 320, 480)];
 		[self.flipsideNavigationBar setFrame: CGRectMake(0.0, 0.0, 320.0, 44.0)];
 	}
 	
@@ -133,7 +136,7 @@
 		//[mainView retain];
 	//	[flipsideView release];
 		//[mainView removeFromSuperview];
-        [infoButton removeFromSuperview];
+        
 		[self.view addSubview:flipsideView];
 		[self.view insertSubview:flipsideNavigationBar aboveSubview:flipsideView];
 		[mainViewController viewDidDisappear:YES];
@@ -149,7 +152,7 @@
 		[flipsideView removeFromSuperview];
 		[flipsideNavigationBar removeFromSuperview];
 		//[self.view addSubview:mainView];
-		[self.view insertSubview:infoButton aboveSubview:mainViewController.view];
+
 		[flipsideViewController viewDidDisappear:YES];
 		[mainViewController viewDidAppear:YES];
 		whichViewActive = 0;
@@ -194,7 +197,6 @@ extern BOOL mayRotate;
 	
 	
 	
-	[infoButton release];
 	[flipsideNavigationBar release];
 	[mainViewController release];
 	[flipsideViewController release];

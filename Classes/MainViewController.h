@@ -7,8 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+@class RootViewController;
 
-@interface MainViewController : UIViewController {
+@interface MainViewController : UIViewController 
+{
+	RootViewController *rootController;
+
 }
+@property (readwrite,assign) RootViewController *rootController;
+
+- (IBAction) toggleInfoView: (id) sender;
 
 @end

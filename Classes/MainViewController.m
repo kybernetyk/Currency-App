@@ -7,10 +7,18 @@
 //
 
 #import "MainViewController.h"
+#import "RootViewController.h"
 #import "MainView.h"
 
 @implementation MainViewController
+@synthesize rootController;
 
+- (IBAction) toggleInfoView: (id) sender
+{
+	NSLog(@"toggle! %@",rootController);
+	
+	[rootController toggleView: sender];
+}
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {

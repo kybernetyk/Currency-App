@@ -302,9 +302,11 @@ BOOL mayRotate = YES;
 	mayRotate = NO;
 	if (UIDeviceOrientationIsLandscape([[UIDevice currentDevice] orientation]))
 	{
+		mayRotate = YES;
 		UIAlertView *a = [[UIAlertView alloc] initWithTitle:@"No space on screen!" message:@"Please turn your device to portrait mode!" delegate: nil cancelButtonTitle:@"ok" otherButtonTitles: nil];
 		
 		[a show];
+		
 		
 		return;
 	}

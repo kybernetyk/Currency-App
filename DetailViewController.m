@@ -132,7 +132,7 @@ NSString *getLastCachedImageFilenameForObject (ForexDataObject *objectToShowHist
 	else
 	{
 		UIImage *img = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://ichart.finance.yahoo.com/3m?%@%@=x",[objectToShowHistory fromCurrencyCode],[objectToShowHistory toCurrencyCode]]]]];
-		NSLog(@"file doesn't exist. let's save it!");
+		//NSLog(@"file doesn't exist. let's save it!");
 		NSData *d = UIImagePNGRepresentation(img);
 		
 		
@@ -166,7 +166,7 @@ NSString *getLastCachedImageFilenameForObject (ForexDataObject *objectToShowHist
 		 [[NSFileManager defaultManager] removeItemAtPath: filename error: NULL];*/
 	}
 	
-	NSLog(@"the final filename: %@",filename);
+	//NSLog(@"the final filename: %@",filename);
 	
 	NSString *s = [NSString stringWithFormat:@"<html><head></head><body style='background-color: transparent; color: white;'><p><center><img src='%@' width=94%%></center></body></html>",filename];
 	//NSLog(@"%@",s);
