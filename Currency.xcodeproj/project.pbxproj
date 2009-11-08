@@ -303,6 +303,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jaroslaw Szpilewski (VA9G2X54KZ)";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -321,6 +322,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jaroslaw Szpilewski (VA9G2X54KZ)";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -389,6 +391,7 @@
 				INFOPLIST_FILE = Info.plist;
 				PRODUCT_NAME = Currency;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DCB00188-66CE-49C3-8575-F3632DB92DE6";
+				SDKROOT = iphoneos3.0;
 			};
 			name = Distribution;
 		};

@@ -47,9 +47,15 @@ BOOL mayRotate = YES;
 //	[app setNetworkActivityIndicatorVisible:YES];
 	[UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
 	
+	NSLog(@"testing yahoo");
 	[[Reachability sharedReachability] setHostName:@"download.finance.yahoo.com"];
 	NetworkStatus internetConnectionStatus = [[Reachability sharedReachability] remoteHostStatus];
-	
+
+	NSLog(@"testing flux");
+	[[Reachability sharedReachability] setHostName:@"www.fluxforge.com"];
+	NetworkStatus internetConnectionStatus2 = [[Reachability sharedReachability] remoteHostStatus];
+
+
 
 	[NSDateFormatter setDefaultFormatterBehavior:NSDateFormatterBehavior10_4];
 	NSDateFormatter *dateFormatter = [[[NSDateFormatter alloc] init]  autorelease];
@@ -58,7 +64,7 @@ BOOL mayRotate = YES;
 
 	
 	
-	if (internetConnectionStatus == NotReachable)
+	if (internetConnectionStatus == NotReachable || internetConnectionStatus2 == NotReachable)
 	{	
 		//NSLog(@"INTERNETS NO THER!");
 		//if (exchangeRate == 0.0f)
@@ -74,12 +80,15 @@ BOOL mayRotate = YES;
 	}
 	else
 	{
-
+		//NSLog(@"test");
 			//NSLog(@"internet found. let's fetch uptodate currency list");
 			NSURL *listUrl = [NSURL URLWithString:@"http://www.fluxforge.com/services/english_currency_list.txt"];
+
 			NSString *theList = [NSString stringWithContentsOfURL: listUrl];
 			NSArray *arr = [theList componentsSeparatedByString:@","];
-			
+
+//		NSLog(@"%@",theList);
+		
 			//was the list found on the net?
 			if (theList == nil)
 			{
