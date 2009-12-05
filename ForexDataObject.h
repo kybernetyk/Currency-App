@@ -14,12 +14,14 @@
 
 	NSString *fromCurrencyCode;
 	NSString *toCurrencyCode;
-	float exchangeRate;
+	NSDecimalNumber *exchangeRate1;
+	NSDecimalNumber *exchangeRate2;
 }
 
 @property (readwrite,retain) NSString *fromCurrencyCode;
 @property (readwrite,retain) NSString *toCurrencyCode;
-@property (readwrite,assign) float exchangeRate;
+@property (readwrite,copy) NSDecimalNumber *exchangeRate1;
+@property (readwrite,copy) NSDecimalNumber *exchangeRate2;
 
 - (void) updateExchangeRate; //phone yahooo
 

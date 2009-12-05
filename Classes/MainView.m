@@ -553,14 +553,21 @@ BOOL mayRotate = YES;
 
 	
 	
-	
-	
+
 	ForexDataObject *fdo = [calcList objectAtIndex:indexPath.row];
 	double finput = [[inputField text] doubleValue];
-	if ([fdo exchangeRate] > 0.0f)
+
+	//if ex1 > 0.0 && ex2 > 0.0
+	if ([[fdo exchangeRate1] compare: [NSDecimalNumber zero]] == NSOrderedDescending &&
+		[[fdo exchangeRate2] compare: [NSDecimalNumber zero]] == NSOrderedDescending)
 	{
-		double ex1 =  finput * [fdo exchangeRate];
-		double ex2 =  finput / [fdo exchangeRate];	
+		NSString *sinput = [NSString stringWithFormat:@"%f",finput];
+		NSDecimalNumber *decinput = [NSDecimalNumber decimalNumberWithString: sinput];
+		
+		NSDecimalNumber *ex1 = [decinput decimalNumberByMultiplyingBy: [fdo exchangeRate1]];
+		NSDecimalNumber *ex2 = [decinput decimalNumberByMultiplyingBy: [fdo exchangeRate2]];
+		
+
 	
 		NSString *format = nil;
 		if (finput >= 10.0)
@@ -568,8 +575,8 @@ BOOL mayRotate = YES;
 		else
 			format = @"%.2f %@ = %.4F %@";
 	
-		NSString *zeile1_text = [[NSString stringWithFormat:format,finput, [fdo fromCurrencyCode],ex1,[fdo toCurrencyCode]] autorelease];
-		NSString *zeile2_text = [[NSString stringWithFormat:format,finput, [fdo toCurrencyCode],ex2,[fdo fromCurrencyCode]] autorelease];	
+		NSString *zeile1_text = [[NSString stringWithFormat:format,finput, [fdo fromCurrencyCode],[ex1 doubleValue],[fdo toCurrencyCode]] autorelease];
+		NSString *zeile2_text = [[NSString stringWithFormat:format,finput, [fdo toCurrencyCode],[ex2 doubleValue],[fdo fromCurrencyCode]] autorelease];	
 	
 		[zeile1_text retain];
 		[zeile2_text retain];
