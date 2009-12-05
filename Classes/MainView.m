@@ -315,7 +315,7 @@ BOOL mayRotate = YES;
 		UIAlertView *a = [[UIAlertView alloc] initWithTitle:@"No space on screen!" message:@"Please turn your device to portrait mode!" delegate: nil cancelButtonTitle:@"ok" otherButtonTitles: nil];
 		
 		[a show];
-		
+		[a release];
 		
 		return;
 	}
@@ -524,7 +524,7 @@ BOOL mayRotate = YES;
 			
 			[[cell cellText] setText:@"Add new ..."];
 			
-			[[cell cellText] release];
+		//	[[cell cellText] release];
 			
 		}
 		
@@ -638,7 +638,7 @@ BOOL mayRotate = YES;
 	
 	[UIView beginAnimations:nil context:NULL];
 	[UIView setAnimationDuration:1];
-	[UIView setAnimationTransition: UIViewAnimationTransitionCurlUp forView: [self superview] cache:YES];
+	[UIView setAnimationTransition: UIViewAnimationTransitionFlipFromLeft forView: [self superview] cache:YES];
 	
 	[[self superview] addSubview: [dvc view]];
 

@@ -238,11 +238,11 @@ NSString *getLastCachedImageFilenameForObject (ForexDataObject *objectToShowHist
 	
 		NSLog(@"will appear! %i", [[UIDevice currentDevice] orientation]);
 		//[[UIDevice currentDevice] setOrientation: 4];
-		CGRect r = [[[self view] superview] frame];
+		//CGRect r = [[[self view] superview] frame];
 		[[self view] setFrame: CGRectMake(0, 0, 480, 320)];
 		[[self view] setNeedsDisplay];
 	
-		r = [chartImageView frame];
+		//r = [chartImageView frame];
 		
 		//[chartImageView setFrame: CGRectMake(r.origin.x,r.origin.y,480,240)];
 		
@@ -273,13 +273,13 @@ NSString *getLastCachedImageFilenameForObject (ForexDataObject *objectToShowHist
 	NSNotificationCenter* nc = [NSNotificationCenter defaultCenter];
 	[nc removeObserver: self];
 	
-	CGRect r = [[self view] frame];
+	//CGRect r = [[self view] frame];
 	
-	NSLog(@"%f,%f,%f,%f",r.origin.x,r.origin.y,r.size.width,r.size.height);
+//	NSLog(@"%f,%f,%f,%f",r.origin.x,r.origin.y,r.size.width,r.size.height);
 	
 	[UIView beginAnimations:nil context:NULL];
 	[UIView setAnimationDuration:1];
-	[UIView setAnimationTransition: UIViewAnimationTransitionCurlDown forView: [[self view] superview] cache:YES];
+	[UIView setAnimationTransition: UIViewAnimationTransitionFlipFromRight forView: [[self view] superview] cache:YES];
 	
 	//[[self view] setTransform: CGAffineTransformMakeTranslation(320,0)];
 	//[callingView setTransform: CGAffineTransformMakeTranslation(0,0)];

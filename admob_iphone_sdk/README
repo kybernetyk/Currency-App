@@ -1,0 +1,125 @@
+About AdMob iPhone SDK
+---------------------------------------------
+AdMob ads are displayed in 320x48 UIViews. They can be placed anywhere: in the main window of your app, in a table view,
+on a splash page, etc. Your implementation of the AdMobDelegate (AdMobDelegateProtocol.h) controls the features of the ad 
+(e.g. color scheme) and receives notifications (e.g. the ad has loaded).
+
+You may display the ad view when you begin requesting an ad or wait until the ad has loaded successfully; see the
+sample IB controller (AdViewController.m) for an example of how to do this. Do not prefetch ads!  Only request an ad 
+you intend to display or else you will significantly hurt ad optimization and thus negatively impact your earnings.
+
+Optionally you may integrate interstitial ads into your application. There is no guarantee interstitials will ever
+be shown in your application. AdMob carefully chooses where and when interstitials are run. Currently, interstitial ads 
+are only enabled for a small set of publishers. Interstitial ads will only be returned to those publishers who have prior 
+approval from AdMob. We hope to offer this type of ad to more publishers soon. Interstitials usually run when an application 
+starts, between levels in a game, or before a movie is played.  
+
+
+Integration instructions
+---------------------------------------------
+
+(1) Add the AdMob library code and headers to your project. They are contained in the AdMob subdirectory. There are four
+files in all: AdMobDelegateProtocol.h, AdMobView.h, libAdMobDevice.a, libAdMobSimulator.a. (If you are using Objective-C++,
+you may need a non-thumb build of libAdMobDevice.a instead, which can be found in the extras directory, called libAdMobDeviceNoThumb.a.)
+
+  (a) Please note that there are two versions of the AdMob libraries, one built for use when targeting iPhone 3.x and one
+      built for use when targeting iPhone 2.x. If you are targeting only 3.0 devices, please use the libraries included
+      in the extras/ folder. Rename the libraries by removing "3_0" from them.
+
+
+(2) Add the CoreLocation, CoreGraphics, QuartzCore, AddressBook, AudioToolbox, and MediaPlayer frameworks to your project.
+They are required to compile. They are dynamic libraries so they won't increase the size of your app. You can decline
+to request location information in your delegate meaning location will not be used, but it is still required to compile. The 
+AddressBook framework will never be used to pull information from a user's address book, only to allow the user to add a contact 
+(with user confirmation) from an advertiser.
+
+  (a) If using the 3.0 libraries add the MessageUI framework as well.
+
+
+(3) Get a publisher id from www.admob.com. Be sure to set your publisher id correctly in your delegate! If you are using
+the IBSupport files or running one of the sample projects, your publisher id should be pre-filled for you.
+
+
+(4) Integrate AdMob ads with your app. We've included sample projects showing super-simple integration in three styles.
+Here is sample code extracted for those three styles:
+  
+  (a) Add an ad to a view using Interface Builder
+  
+    * Add AdViewController.h and AdViewController.m to your project (located in the IBSupport subdirectory).
+    * Open Interface Builder.
+    * Place a 320x48 UIView where you want the ad to appear.
+    * Add an Object, and change its type to AdViewController.
+    * Set the view outlet of the AdViewController to your UIView.
+    * Edit AdViewController.m to make sure that your publisher id and other options are set correctly.
+  
+  (b) Add an ad to a view programmatically
+  
+    * Create an AdMob delegate class; it can be as simple as a class that only implements -publisherId:. 
+    * Add the following code to your view creation (modify as appropriate):
+    
+    AdMobView *ad = [AdMobView requestAdWithDelegate:<your delegate>]; // start a new ad request
+    ad.frame = CGRectMake(0, 432, 320, 48); // set the frame, in this case at the bottom of the screen
+    [self.window addSubview:ad]; // attach the ad to the view hierarchy; self.window is responsible for retaining the ad
+  
+  (c) Add an ad to a tableview
+    
+    * Create an AdMob delegate class; it can be as simple as a class that only implements -publisherId:.
+    * Add to your -tableView:cellForRowAtIndexPath: method (modify as appropriate):
+    
+    [cell.contentView addSubview:[AdMobView requestAdWithDelegate:<your delegate>]];
+
+
+(5) The AdMob library uses TouchJSON version 1.0.6 (May 14, 2009); it is compiled into the AdMob SDK. We have included
+the TouchJSON headers in the TouchJSON directory, in case you also want to use TouchJSON. You can read more about
+TouchJSON at http://code.google.com/p/touchcode/
+
+
+(6) Optionally integrate AdMob interstitial ads. Interstitial ad support is included in the "extras" folder. Currently, 
+interstitial ads are only enabled for a small set of publishers. Interstitial ads will only be returned to those publishers 
+who have prior approval from AdMob. We hope to offer this type of ad to more publishers soon. 
+
+The InterstitialSample project uses the 3.0 libraries by default. Displaying an interstitial requires programmatically 
+requesting it (e.g. when a game level starts), holding onto the result, and then showing it at the appropriate time (e.g. 
+after the level completes). The sample application demonstrates this in detail. Special note: when using AdMob Interstitial 
+Ads in your application, please be sure to instantiate a new MPMoviePlayerController each time you play your own application's 
+videos. The MPMoviePlayerController's ContentURL changes if a different MPMoviePlayerController is instantiated with a 
+different URL, which may occur if AdMob serves a video interstitial ad.
+
+
+(7) Contact support@admob.com with bugs, questions, or feedback, or check the wiki at http://developer.admob.com/wiki/iPhone
+
+
+FAQ
+---------------------------------------------
+
+Q: I think I've done everything correctly, but I'm not seeing any ads. What's up with that?
+
+A: There are a few things to try. The first is to request an ad in test mode. Add this to your AdMob delegate:
+
+- (BOOL)useTestAd {
+  return YES;
+}
+
+If this does not work make sure the AdMobView has been added to the view hierarchy.
+
+If the test ad shows up double-check that your publisher id is set correctly, return NO for the test ad, and try again.
+If it still does not work wait 20 minutes. It may take some time before all AdMob servers recognize your publisher ID.
+
+If ads still do not appear check whether the included sample projects displays ads. If it does, you might want to compare
+your code to the example paying attention to attaching the AdMobView to your view hierarchy, that the frame is set correctly,
+and that the delegate is set correctly. You can confirm that there are ads available for your site by logging in to
+www.admob.com. If it still doesn't work, email support@admob.com or check the wiki at http://developer.admob.com/wiki/iPhone.
+
+
+Q: I am seeing weird crashes when I click on ads. Any ideas why?
+
+A: Likely you are running the 2.0 libraries in the 3.0 simulator. This results in unpredictable behavior and random crashes.
+Make sure you always use the 2.0 libraries when running any 2.x version in the simulator and the 3.0 libraries for any 3.x
+version in the simulator.
+
+Q: When I get a video interstitial ad in the simulator, my simulator orientation goes haywire!  Why?
+
+A: When Apple's MPMoviePlayerController takes control of the phone to start playing a movie, it explicitly sets the 
+orientation of the phone to UIInterfaceOrientationLandscapeRight. We return the phone to the original orientation so the 
+user doesn't have to change the orientation of the phone. In the simulator you can see this quick orientation change, but on 
+the device the change takes place seamlessly.

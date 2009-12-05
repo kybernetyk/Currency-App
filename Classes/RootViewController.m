@@ -64,7 +64,7 @@
 	[aNavigationBar release];
 	
 	UIBarButtonItem *buttonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(toggleView:)];
-	UINavigationItem *navigationItem = [[UINavigationItem alloc] initWithTitle:@"Currency.app"];
+	UINavigationItem *navigationItem = [[UINavigationItem alloc] initWithTitle:@"Currency Converter"];
 	navigationItem.rightBarButtonItem = buttonItem;
 	[flipsideNavigationBar pushNavigationItem:navigationItem animated:NO];
 	[navigationItem release];

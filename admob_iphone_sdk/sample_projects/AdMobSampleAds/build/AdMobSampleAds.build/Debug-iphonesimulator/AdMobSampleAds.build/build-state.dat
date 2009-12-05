@@ -1,0 +1,546 @@
+TAdMobSampleAds
+v7
+r0
+t279561186.032571
+cCheck dependencies
+cProcessInfoPlistFile /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/AdMobSampleAds.app/Info.plist AdMobSampleAds-Info.plist
+cCompileXIB /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/MainWindow.xib
+cCompileXIB /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/TableViewAdViewController.xib
+cCompileXIB /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/IBAdViewController.xib
+cCompileXIB /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/RootViewController.xib
+cProcessPCH /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AdMobSampleAds_Prefix-hhplnklvgsltlwahpgfyhgxtxygh/AdMobSampleAds_Prefix.pch.gch AdMobSampleAds_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/Objects-normal/i386/main.o /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/Objects-normal/i386/AdMobSampleAdsAppDelegate.o /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/AdMobSampleAdsAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/Objects-normal/i386/RootViewController.o /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/Objects-normal/i386/IBAdViewController.o /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/IBAdViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/Objects-normal/i386/TableViewAdViewController.o /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/TableViewAdViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/Objects-normal/i386/ProgrammaticAdViewController.o /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/ProgrammaticAdViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/Objects-normal/i386/AdViewController.o /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/AdViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/AdMobSampleAds.app/AdMobSampleAds normal i386
+cGenerateDSYMFile /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/AdMobSampleAds.app.dSYM /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/AdMobSampleAds.app/AdMobSampleAds
+cTouch /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/AdMobSampleAds.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk
+c000000004AF584CB00000000000000EE
+t1257604299
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000004ABDEA6D000000000003E730
+t1253960301
+s255792
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004ABDC8DB0000000000193960
+t1253951707
+s1653088
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004ABDC853000000000026EE30
+t1253951571
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004ABDEE58000000000004AFE0
+t1253961304
+s307168
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004ABDEE5400000000000001AF
+t1253961300
+s431
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004ABDC952000000000027E880
+t1253951826
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004ABDC93F0000000000001355
+t1253951807
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000004ABDF0B500000000000CB600
+t1253961909
+s833024
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004ABDEF8A0000000000069ED0
+t1253961610
+s433872
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004ABDCB2000000000000E5890
+t1253952288
+s940176
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004ABDEE1D0000000000000788
+t1253961245
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004ABDEEE200000000016721E0
+t1253961442
+s23536096
+
+N/System/Library/Frameworks/Message.framework/Message
+c000000004A6E8A8C0000000000D45B50
+t1248758412
+s13917008
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/../../extras/libAdMobDevice3_0.a
+c000000004AF986890000000000090B00
+t1257866889
+s592640
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/../../extras/libAdMobSimulator3_0.a
+c000000004AF98689000000000009AC48
+t1257866889
+s633928
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/AdMobDelegateProtocol.h
+c000000004AF986890000000000001683
+t1257866889
+s5763
+i<CoreLocation/CoreLocation.h>
+i<UIKit/UIKit.h>
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/AdMobSampleAds_Prefix.pch
+c000000004AF9868900000000000000C5
+t1257866889
+s197
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/AdMobView.h
+c000000004AF986890000000000000579
+t1257866889
+s1401
+i<UIKit/UIKit.h>
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/AdMobDelegateProtocol.h
+c000000004AF986890000000000001683
+t1257866889
+s5763
+i<CoreLocation/CoreLocation.h>
+i<UIKit/UIKit.h>
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/AdMobSampleAdsAppDelegate.h
+c000000004AF9868900000000000001C8
+t1257866889
+s456
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/AdMobSampleAdsAppDelegate.m
+c000000004AF986890000000000000551
+t1257866889
+s1361
+i"AdMobSampleAdsAppDelegate.h"
+i"RootViewController.h"
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/AdMobView.h
+c000000004AF986890000000000000579
+t1257866889
+s1401
+i<UIKit/UIKit.h>
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/AdViewController.h
+c000000004AF986890000000000000537
+t1257866889
+s1335
+i<UIKit/UIKit.h>
+i"AdMobDelegateProtocol.h"
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/AdViewController.m
+c000000004AF98C5E0000000000000C53
+t1257868382
+s3155
+i"AdMobView.h"
+i"AdViewController.h"
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/IBAdViewController.h
+c000000004AF986890000000000000099
+t1257866889
+s153
+i<UIKit/UIKit.h>
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/IBAdViewController.m
+c000000004AF986890000000000000296
+t1257866889
+s662
+i"AdMobView.h"
+i"IBAdViewController.h"
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/ProgrammaticAdViewController.h
+c000000004AF9868900000000000001B2
+t1257866889
+s434
+i<UIKit/UIKit.h>
+i"AdMobDelegateProtocol.h"
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/ProgrammaticAdViewController.m
+c000000004AF98C4E0000000000001023
+t1257868366
+s4131
+i"ProgrammaticAdViewController.h"
+i"AdMobView.h"
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/RootViewController.h
+c000000004AF9868900000000000000EE
+t1257866889
+s238
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/RootViewController.m
+c000000004AF986890000000000001A85
+t1257866889
+s6789
+i"RootViewController.h"
+i"IBAdViewController.h"
+i"ProgrammaticAdViewController.h"
+i"TableViewAdViewController.h"
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/TableViewAdViewController.h
+c000000004AF9868900000000000000D5
+t1257866889
+s213
+i<UIKit/UIKit.h>
+i"AdMobDelegateProtocol.h"
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/TableViewAdViewController.m
+c000000004AF98C070000000000000B65
+t1257868295
+s2917
+i"TableViewAdViewController.h"
+i"AdMobView.h"
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/libAdMobDevice3_0.a
+c000000004AF986890000000000090B00
+t1257866889
+s592640
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/libAdMobDeviceNoThumb.a
+c000000004AF98689000000000009BAD8
+t1257866889
+s637656
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/libAdMobDeviceNoThumb3_0.a
+c000000004AF98689000000000009BAD8
+t1257866889
+s637656
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/libAdMobSimulator3_0.a
+c000000004AF98689000000000009AC48
+t1257866889
+s633928
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/IBAdViewController.xib
+c000000004AF98689000000000000207F
+t1257866889
+s8319
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/MainWindow.xib
+c000000004AF986890000000000002BFE
+t1257866889
+s11262
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/RootViewController.xib
+c000000004AF986890000000000001EAC
+t1257866889
+s7852
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/TableViewAdViewController.xib
+c000000004AF986890000000000001C61
+t1257866889
+s7265
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/Objects-normal/i386/AdMobSampleAds.LinkFileList
+c000000004AF989410000000000000572
+t1257867585
+s1394
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/Objects-normal/i386/AdMobSampleAdsAppDelegate.o
+t1257867835
+s42792
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/Objects-normal/i386/AdViewController.o
+t1257868385
+s37992
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/Objects-normal/i386/IBAdViewController.o
+t1257867835
+s30132
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/Objects-normal/i386/ProgrammaticAdViewController.o
+t1257868385
+s41052
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/Objects-normal/i386/RootViewController.o
+t1257867835
+s39080
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/Objects-normal/i386/TableViewAdViewController.o
+t1257868296
+s39716
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/Objects-normal/i386/main.o
+t1257867834
+s6052
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/AdMobSampleAds.app
+t1257868386
+s306
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/AdMobSampleAds.app.dSYM
+t1257868386
+s102
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/AdMobSampleAds.app/AdMobSampleAds
+t1257868385
+s328348
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/AdMobSampleAds.app/IBAdViewController.nib
+t1257867586
+s1475
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/AdMobSampleAds.app/Info.plist
+t1257867585
+s592
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/AdMobSampleAds.app/MainWindow.nib
+t1257867585
+s2059
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/AdMobSampleAds.app/PkgInfo
+t1257867585
+s8
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/AdMobSampleAds.app/RootViewController.nib
+t1257867586
+s1495
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/AdMobSampleAds.app/TableViewAdViewController.nib
+t1257867585
+s1386
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/libAdMobDevice.a
+c000000004AF986890000000000090B00
+t1257866889
+s592640
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/libAdMobSimulator.a
+c000000004AF9868900000000000A1EC0
+t1257866889
+s663232
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/main.m
+c000000004AF986890000000000000169
+t1257866889
+s361
+i<UIKit/UIKit.h>
+
+N/var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AdMobSampleAds_Prefix-agrflvjouvymkxchlgyblamjkdws/AdMobSampleAds_Prefix.pch.gch
+t1257867586
+s13034960
+
+N/var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AdMobSampleAds_Prefix-hhplnklvgsltlwahpgfyhgxtxygh/AdMobSampleAds_Prefix.pch.gch
+t1257867834
+s13034960
+
+NAdMobSampleAds-Info.plist
+c000000004AF98689000000000000038D
+t1257866889
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies279561185#279561185#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/Objects-normal/i386/AdMobSampleAdsAppDelegate.o /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/AdMobSampleAdsAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s279560634.942943
+e279560635.013229
+r1
+xCompileC
+xbuild/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/Objects-normal/i386/AdMobSampleAdsAppDelegate.o
+x/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/AdMobSampleAdsAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@130"Compile /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/AdMobSampleAdsAppDelegate.m279560634#279560635#0(0"0(0#0#122"/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/AdMobSampleAdsAppDelegate.m4300885448#2691"    cd /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/AdMobSampleAds-generated-files.hmap -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/AdMobSampleAds-own-target-headers.hmap -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/AdMobSampleAds-all-target-headers.hmap -iquote /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/AdMobSampleAds-project-headers.hmap -F/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/include -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/DerivedSources/i386 -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/DerivedSources -include /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AdMobSampleAds_Prefix-hhplnklvgsltlwahpgfyhgxtxygh/AdMobSampleAds_Prefix.pch -c /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/AdMobSampleAdsAppDelegate.m -o /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/Objects-normal/i386/AdMobSampleAdsAppDelegate.o0#
+
+CCompileC build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/Objects-normal/i386/AdViewController.o /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/AdViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s279561185.730959
+e279561185.878025
+r1
+xCompileC
+xbuild/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/Objects-normal/i386/AdViewController.o
+x/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/AdViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@121"Compile /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/AdViewController.m279561185#279561185#0(0"0(0#0#113"/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/AdViewController.m4300885448#2673"    cd /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/AdMobSampleAds-generated-files.hmap -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/AdMobSampleAds-own-target-headers.hmap -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/AdMobSampleAds-all-target-headers.hmap -iquote /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/AdMobSampleAds-project-headers.hmap -F/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/include -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/DerivedSources/i386 -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/DerivedSources -include /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AdMobSampleAds_Prefix-hhplnklvgsltlwahpgfyhgxtxygh/AdMobSampleAds_Prefix.pch -c /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/AdViewController.m -o /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/Objects-normal/i386/AdViewController.o0#
+
+CCompileC build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/Objects-normal/i386/IBAdViewController.o /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/IBAdViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s279560635.013359
+e279560635.082239
+r1
+xCompileC
+xbuild/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/Objects-normal/i386/IBAdViewController.o
+x/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/IBAdViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@123"Compile /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/IBAdViewController.m279560635#279560635#0(0"0(0#0#115"/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/IBAdViewController.m4300885448#2677"    cd /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/AdMobSampleAds-generated-files.hmap -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/AdMobSampleAds-own-target-headers.hmap -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/AdMobSampleAds-all-target-headers.hmap -iquote /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/AdMobSampleAds-project-headers.hmap -F/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/include -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/DerivedSources/i386 -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/DerivedSources -include /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AdMobSampleAds_Prefix-hhplnklvgsltlwahpgfyhgxtxygh/AdMobSampleAds_Prefix.pch -c /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/IBAdViewController.m -o /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/Objects-normal/i386/IBAdViewController.o0#
+
+CCompileC build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/Objects-normal/i386/ProgrammaticAdViewController.o /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/ProgrammaticAdViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s279561185.679935
+e279561185.816218
+r1
+xCompileC
+xbuild/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/Objects-normal/i386/ProgrammaticAdViewController.o
+x/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/ProgrammaticAdViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@133"Compile /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/ProgrammaticAdViewController.m279561185#279561185#0(0"0(0#0#125"/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/ProgrammaticAdViewController.m4300885448#2697"    cd /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/AdMobSampleAds-generated-files.hmap -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/AdMobSampleAds-own-target-headers.hmap -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/AdMobSampleAds-all-target-headers.hmap -iquote /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/AdMobSampleAds-project-headers.hmap -F/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/include -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/DerivedSources/i386 -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/DerivedSources -include /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AdMobSampleAds_Prefix-hhplnklvgsltlwahpgfyhgxtxygh/AdMobSampleAds_Prefix.pch -c /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/ProgrammaticAdViewController.m -o /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/Objects-normal/i386/ProgrammaticAdViewController.o0#
+
+CCompileC build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/Objects-normal/i386/RootViewController.o /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s279560634.989784
+e279560635.060614
+r1
+xCompileC
+xbuild/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/Objects-normal/i386/RootViewController.o
+x/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@123"Compile /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/RootViewController.m279560634#279560635#0(0"0(0#0#115"/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/RootViewController.m4300885448#2677"    cd /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/AdMobSampleAds-generated-files.hmap -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/AdMobSampleAds-own-target-headers.hmap -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/AdMobSampleAds-all-target-headers.hmap -iquote /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/AdMobSampleAds-project-headers.hmap -F/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/include -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/DerivedSources/i386 -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/DerivedSources -include /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AdMobSampleAds_Prefix-hhplnklvgsltlwahpgfyhgxtxygh/AdMobSampleAds_Prefix.pch -c /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/RootViewController.m -o /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/Objects-normal/i386/RootViewController.o0#
+
+CCompileC build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/Objects-normal/i386/TableViewAdViewController.o /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/TableViewAdViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s279561096.632670
+e279561096.757876
+r1
+xCompileC
+xbuild/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/Objects-normal/i386/TableViewAdViewController.o
+x/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/TableViewAdViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@130"Compile /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/TableViewAdViewController.m279561096#279561096#0(0"0(0#0#122"/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/TableViewAdViewController.m4300885448#2691"    cd /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/AdMobSampleAds-generated-files.hmap -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/AdMobSampleAds-own-target-headers.hmap -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/AdMobSampleAds-all-target-headers.hmap -iquote /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/AdMobSampleAds-project-headers.hmap -F/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/include -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/DerivedSources/i386 -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/DerivedSources -include /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AdMobSampleAds_Prefix-hhplnklvgsltlwahpgfyhgxtxygh/AdMobSampleAds_Prefix.pch -c /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes/TableViewAdViewController.m -o /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/Objects-normal/i386/TableViewAdViewController.o0#
+
+CCompileC build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/Objects-normal/i386/main.o /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s279560634.941751
+e279560634.989684
+r1
+xCompileC
+xbuild/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/Objects-normal/i386/main.o
+x/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/main.m279560634#279560634#0(0"0(0#0#93"/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/main.m4300885448#2641"    cd /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/AdMobSampleAds-generated-files.hmap -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/AdMobSampleAds-own-target-headers.hmap -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/AdMobSampleAds-all-target-headers.hmap -iquote /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/AdMobSampleAds-project-headers.hmap -F/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/include -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/DerivedSources/i386 -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/DerivedSources -include /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AdMobSampleAds_Prefix-hhplnklvgsltlwahpgfyhgxtxygh/AdMobSampleAds_Prefix.pch -c /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/main.m -o /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/IBAdViewController.xib
+s279560385.860877
+e279560386.129762
+r1
+xCompileXIB
+x/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/IBAdViewController.xib
+lSLF07#2@33"CompileXIB IBAdViewController.xib279560385#279560386#0(0"0(0#0#109"/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/IBAdViewController.xib4300885448#649"    cd /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/AdMobSampleAds.app/IBAdViewController.nib /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/IBAdViewController.xib0#
+
+CCompileXIB /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/MainWindow.xib
+s279560385.563059
+e279560385.860782
+r1
+xCompileXIB
+x/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib279560385#279560385#0(0"0(0#0#101"/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/MainWindow.xib4300885448#633"    cd /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/AdMobSampleAds.app/MainWindow.nib /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/MainWindow.xib0#
+
+CCompileXIB /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/RootViewController.xib
+s279560385.870319
+e279560386.130676
+r1
+xCompileXIB
+x/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib279560385#279560386#0(0"0(0#0#109"/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/RootViewController.xib4300885448#649"    cd /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/AdMobSampleAds.app/RootViewController.nib /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/RootViewController.xib0#
+
+CCompileXIB /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/TableViewAdViewController.xib
+s279560385.563628
+e279560385.870241
+r1
+xCompileXIB
+x/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/TableViewAdViewController.xib
+lSLF07#2@40"CompileXIB TableViewAdViewController.xib279560385#279560385#0(0"0(0#0#116"/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/TableViewAdViewController.xib4300885448#663"    cd /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/AdMobSampleAds.app/TableViewAdViewController.nib /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/TableViewAdViewController.xib0#
+
+CGenerateDSYMFile /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/AdMobSampleAds.app.dSYM /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/AdMobSampleAds.app/AdMobSampleAds
+s279561185.976667
+e279561186.030184
+r1
+xGenerateDSYMFile
+x/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/AdMobSampleAds.app.dSYM
+x/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/AdMobSampleAds.app/AdMobSampleAds
+lSLF07#2@130"GenerateDSYMFile build/Debug-iphonesimulator/AdMobSampleAds.app.dSYM build/Debug-iphonesimulator/AdMobSampleAds.app/AdMobSampleAds279561185#279561186#0(0"0(0#0#148"/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/AdMobSampleAds.app/AdMobSampleAds4300885448#548"    cd /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/AdMobSampleAds.app/AdMobSampleAds -o /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/AdMobSampleAds.app.dSYM0#
+
+CLd /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/AdMobSampleAds.app/AdMobSampleAds normal i386
+s279561185.878122
+e279561185.976575
+r1
+xLd
+x/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/AdMobSampleAds.app/AdMobSampleAds
+xnormal
+xi386
+old: warning: in /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/extras/libAdMobDevice3_0.a, file is not of required architecture
+old: warning: in /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/extras/libAdMobDeviceNoThumb.a, file is not of required architecture
+old: warning: in /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/extras/libAdMobDeviceNoThumb3_0.a, file is not of required architecture
+lSLF07#2@153"Link /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/AdMobSampleAds.app/AdMobSampleAds279561185#279561185#0(422"ld: warning: in /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/extras/libAdMobDevice3_0.a, file is not of required architectureld: warning: in /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/extras/libAdMobDeviceNoThumb.a, file is not of required architectureld: warning: in /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/extras/libAdMobDeviceNoThumb3_0.a, file is not of required architecture3(22@123"In /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/extras/libAdMobDevice3_0.a, file is not of required architecture279561185#0#137#0(6@0"279561185#0#0#0#0#0"0(22@127"In /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/extras/libAdMobDeviceNoThumb.a, file is not of required architecture279561185#137#141#0(6@0"279561185#0#0#0#0#0"0(22@130"In /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/extras/libAdMobDeviceNoThumb3_0.a, file is not of required architecture279561185#278#144#0(6@0"279561185#0#0#0#0#0"0(0#0#0"4300885448#1760"    cd /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -L/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator -L/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds -L/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/../../extras -L/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/Classes -F/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks -filelist /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/Objects-normal/i386/AdMobSampleAds.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework AddressBook -framework CoreLocation -framework QuartzCore -framework AudioToolbox -framework MediaPlayer -lAdMobDevice3_0 -lAdMobDeviceNoThumb -lAdMobDeviceNoThumb3_0 -lAdMobSimulator3_0 -framework MessageUI -o /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/AdMobSampleAds.app/AdMobSampleAds0#
+
+CProcessInfoPlistFile /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/AdMobSampleAds.app/Info.plist AdMobSampleAds-Info.plist
+s279560385.560237
+e279560385.562990
+r1
+xProcessInfoPlistFile
+x/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/AdMobSampleAds.app/Info.plist
+xAdMobSampleAds-Info.plist
+lSLF07#2@33"Process AdMobSampleAds-Info.plist279560385#279560385#0(0"0(0#0#112"/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/AdMobSampleAds-Info.plist4300885448#644"    cd /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility AdMobSampleAds-Info.plist -genpkginfo /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/AdMobSampleAds.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/AdMobSampleAds.app/Info.plist0#
+
+CProcessPCH /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AdMobSampleAds_Prefix-agrflvjouvymkxchlgyblamjkdws/AdMobSampleAds_Prefix.pch.gch AdMobSampleAds_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s279560386.130754
+e279560387.089102
+r1
+xProcessPCH
+x/var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AdMobSampleAds_Prefix-agrflvjouvymkxchlgyblamjkdws/AdMobSampleAds_Prefix.pch.gch
+xAdMobSampleAds_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile AdMobSampleAds_Prefix.pch279560386#279560387#0(0"0(0#0#112"/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/AdMobSampleAds_Prefix.pch4300885448#2364"    cd /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/AdMobSampleAds-generated-files.hmap -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/AdMobSampleAds-own-target-headers.hmap -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/AdMobSampleAds-all-target-headers.hmap -iquote /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/AdMobSampleAds-project-headers.hmap -F/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/include -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/DerivedSources/i386 -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/DerivedSources -c /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/AdMobSampleAds_Prefix.pch -o /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AdMobSampleAds_Prefix-agrflvjouvymkxchlgyblamjkdws/AdMobSampleAds_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AdMobSampleAds_Prefix-hhplnklvgsltlwahpgfyhgxtxygh/AdMobSampleAds_Prefix.pch.gch AdMobSampleAds_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s279560634.244102
+e279560634.941627
+r1
+xProcessPCH
+x/var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AdMobSampleAds_Prefix-hhplnklvgsltlwahpgfyhgxtxygh/AdMobSampleAds_Prefix.pch.gch
+xAdMobSampleAds_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile AdMobSampleAds_Prefix.pch279560634#279560634#0(0"0(0#0#112"/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/AdMobSampleAds_Prefix.pch4300885448#2478"    cd /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/AdMobSampleAds-generated-files.hmap -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/AdMobSampleAds-own-target-headers.hmap -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/AdMobSampleAds-all-target-headers.hmap -iquote /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/AdMobSampleAds-project-headers.hmap -F/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/include -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/DerivedSources/i386 -I/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/AdMobSampleAds.build/Debug-iphonesimulator/AdMobSampleAds.build/DerivedSources -c /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/AdMobSampleAds_Prefix.pch -o /var/folders/It/IttwIeUMFDKZzn-5dyiHeE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AdMobSampleAds_Prefix-hhplnklvgsltlwahpgfyhgxtxygh/AdMobSampleAds_Prefix.pch.gch0#
+
+CTouch /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/AdMobSampleAds.app
+s279561186.030261
+e279561186.032544
+r1
+xTouch
+x/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/AdMobSampleAds.app
+lSLF07#2@139"Touch /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/AdMobSampleAds.app279561186#279561186#0(0"0(0#0#0"4300885448#381"    cd /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug-iphonesimulator/AdMobSampleAds.app0#
+

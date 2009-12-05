@@ -34,7 +34,7 @@
  - (void)viewDidLoad {
 	 MainView *m = (MainView *)[self view];
 	 [m didLoad];
-	 [m release];
+	// [m release];
 	// [m release];
 	 //[m release];
 	 
@@ -63,7 +63,7 @@
 	//NSLog(@"Main View retaincount: %i",[[self view] retainCount]);
 	//NSLog(@"*****************************************");
 
-	[[self view] release];
+	//[[self view] release];
 	[super dealloc];
 
 }

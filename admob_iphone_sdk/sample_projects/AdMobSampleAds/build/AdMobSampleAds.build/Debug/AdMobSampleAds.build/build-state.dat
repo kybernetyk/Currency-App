@@ -1,0 +1,75 @@
+TAdMobSampleAds
+v7
+r1
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/IBAdViewController.xib
+c000000004AF98689000000000000207F
+t1257866889
+s8319
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/MainWindow.xib
+c000000004AF986890000000000002BFE
+t1257866889
+s11262
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/RootViewController.xib
+c000000004AF986890000000000001EAC
+t1257866889
+s7852
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/TableViewAdViewController.xib
+c000000004AF986890000000000001C61
+t1257866889
+s7265
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug/AdMobSampleAds.app
+t2
+s0
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug/AdMobSampleAds.app/Contents/Info.plist
+t2
+s0
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug/AdMobSampleAds.app/Contents/PkgInfo
+t2
+s0
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug/AdMobSampleAds.app/Contents/Resources/IBAdViewController.nib
+t2
+s0
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug/AdMobSampleAds.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug/AdMobSampleAds.app/Contents/Resources/RootViewController.nib
+t2
+s0
+
+N/Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug/AdMobSampleAds.app/Contents/Resources/TableViewAdViewController.nib
+t2
+s0
+
+NAdMobSampleAds-Info.plist
+c000000004AF98689000000000000038D
+t1257866889
+s909
+
+CCompileXIB /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/IBAdViewController.xib
+r0
+
+CCompileXIB /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/MainWindow.xib
+r0
+
+CCompileXIB /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/RootViewController.xib
+r0
+
+CCompileXIB /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/TableViewAdViewController.xib
+r0
+
+CProcessInfoPlistFile /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug/AdMobSampleAds.app/Contents/Info.plist AdMobSampleAds-Info.plist
+r0
+
+CTouch /Volumes/Work/Code/iPhone/Currency-App/admob_iphone_sdk/sample_projects/AdMobSampleAds/build/Debug/AdMobSampleAds.app
+r0
+

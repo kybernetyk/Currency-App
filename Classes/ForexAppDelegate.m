@@ -36,7 +36,7 @@
 	MainView *mv = (MainView *)[mvc view];
 	
 	[mv saveCalcList];
-	[mv release];
+//	[mv release];
 	
 	[rootViewController release];
 

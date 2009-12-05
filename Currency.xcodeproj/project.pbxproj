@@ -10,6 +10,15 @@
 		0305C56A0F701F870047F9BA /* offline.png in Resources */ = {isa = PBXBuildFile; fileRef = 0305C5690F701F870047F9BA /* offline.png */; };
 		037C1E800F6FD62500D8268E /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 037C1E7F0F6FD62500D8268E /* DetailView.xib */; };
 		037C1E8C0F6FD64500D8268E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 037C1E8B0F6FD64500D8268E /* DetailViewController.m */; };
+		03FB82B710A9C4C6008D3D63 /* libAdMobDevice3_0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FB82B510A9C4C6008D3D63 /* libAdMobDevice3_0.a */; };
+		03FB82B810A9C4C6008D3D63 /* libAdMobSimulator3_0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FB82B610A9C4C6008D3D63 /* libAdMobSimulator3_0.a */; };
+		03FB82D010A9C606008D3D63 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FB82CF10A9C606008D3D63 /* CoreLocation.framework */; };
+		03FB82F210A9C684008D3D63 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FB82F110A9C684008D3D63 /* AddressBook.framework */; };
+		03FB82F410A9C684008D3D63 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FB82F310A9C684008D3D63 /* AudioToolbox.framework */; };
+		03FB82F610A9C684008D3D63 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FB82F510A9C684008D3D63 /* QuartzCore.framework */; };
+		03FB831310A9C72A008D3D63 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FB831210A9C72A008D3D63 /* MediaPlayer.framework */; };
+		03FB831510A9C72A008D3D63 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03FB831410A9C72A008D3D63 /* MessageUI.framework */; };
+		03FB834D10A9C928008D3D63 /* AdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FB834C10A9C928008D3D63 /* AdViewController.m */; };
 		1D3623260D0F684500981E51 /* ForexAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* ForexAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -41,10 +50,22 @@
 		037C1E7F0F6FD62500D8268E /* DetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailView.xib; sourceTree = "<group>"; };
 		037C1E8A0F6FD64500D8268E /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		037C1E8B0F6FD64500D8268E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		03FB82B310A9C4C5008D3D63 /* AdMobDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdMobDelegateProtocol.h; sourceTree = "<group>"; };
+		03FB82B410A9C4C5008D3D63 /* AdMobView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdMobView.h; sourceTree = "<group>"; };
+		03FB82B510A9C4C6008D3D63 /* libAdMobDevice3_0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdMobDevice3_0.a; sourceTree = "<group>"; };
+		03FB82B610A9C4C6008D3D63 /* libAdMobSimulator3_0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdMobSimulator3_0.a; sourceTree = "<group>"; };
+		03FB82CF10A9C606008D3D63 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = ../../../../../../System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		03FB82F110A9C684008D3D63 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = /System/Library/Frameworks/AddressBook.framework; sourceTree = "<absolute>"; };
+		03FB82F310A9C684008D3D63 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		03FB82F510A9C684008D3D63 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		03FB831210A9C72A008D3D63 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		03FB831410A9C72A008D3D63 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		03FB834B10A9C928008D3D63 /* AdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdViewController.h; sourceTree = "<group>"; };
+		03FB834C10A9C928008D3D63 /* AdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdViewController.m; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* ForexAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForexAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* ForexAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForexAppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* Currency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Currency.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* CurrencyConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		280E754A0DD40C5E005A515E /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
 		280E754B0DD40C5E005A515E /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
@@ -90,6 +111,14 @@
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				EFA2238E0E48B8D00020FF57 /* CoreGraphics.framework in Frameworks */,
 				EF4A930F0E54403200B723E2 /* SystemConfiguration.framework in Frameworks */,
+				03FB82B710A9C4C6008D3D63 /* libAdMobDevice3_0.a in Frameworks */,
+				03FB82B810A9C4C6008D3D63 /* libAdMobSimulator3_0.a in Frameworks */,
+				03FB82D010A9C606008D3D63 /* CoreLocation.framework in Frameworks */,
+				03FB82F210A9C684008D3D63 /* AddressBook.framework in Frameworks */,
+				03FB82F410A9C684008D3D63 /* AudioToolbox.framework in Frameworks */,
+				03FB82F610A9C684008D3D63 /* QuartzCore.framework in Frameworks */,
+				03FB831310A9C72A008D3D63 /* MediaPlayer.framework in Frameworks */,
+				03FB831510A9C72A008D3D63 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +132,27 @@
 				037C1E8B0F6FD64500D8268E /* DetailViewController.m */,
 			);
 			name = "DetailView Controller";
+			sourceTree = "<group>";
+		};
+		03FB82B210A9C4C5008D3D63 /* AdMob */ = {
+			isa = PBXGroup;
+			children = (
+				03FB834A10A9C928008D3D63 /* IBSupport */,
+				03FB82B310A9C4C5008D3D63 /* AdMobDelegateProtocol.h */,
+				03FB82B410A9C4C5008D3D63 /* AdMobView.h */,
+				03FB82B510A9C4C6008D3D63 /* libAdMobDevice3_0.a */,
+				03FB82B610A9C4C6008D3D63 /* libAdMobSimulator3_0.a */,
+			);
+			path = AdMob;
+			sourceTree = "<group>";
+		};
+		03FB834A10A9C928008D3D63 /* IBSupport */ = {
+			isa = PBXGroup;
+			children = (
+				03FB834B10A9C928008D3D63 /* AdViewController.h */,
+				03FB834C10A9C928008D3D63 /* AdViewController.m */,
+			);
+			path = IBSupport;
 			sourceTree = "<group>";
 		};
 		080E96DDFE201D6D7F000001 /* Application Controllers */ = {
@@ -120,7 +170,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* Currency.app */,
+				1D6058910D05DD3D006BFB54 /* CurrencyConverter.app */,
 			);
 			name = Products;
 			path = /Users/jarek/Desktop/Code/iCurrency/trunk;
@@ -151,6 +201,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				03FB82B210A9C4C5008D3D63 /* AdMob */,
 				037C1E890F6FD63000D8268E /* DetailView Controller */,
 				289233A00DB2D0730083E9F9 /* Main View */,
 				281C6CD70DB2D82200F60ACC /* Flipside View */,
@@ -207,6 +258,12 @@
 				EFA2238D0E48B8D00020FF57 /* CoreGraphics.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				03FB82CF10A9C606008D3D63 /* CoreLocation.framework */,
+				03FB82F110A9C684008D3D63 /* AddressBook.framework */,
+				03FB82F310A9C684008D3D63 /* AudioToolbox.framework */,
+				03FB82F510A9C684008D3D63 /* QuartzCore.framework */,
+				03FB831210A9C72A008D3D63 /* MediaPlayer.framework */,
+				03FB831410A9C72A008D3D63 /* MessageUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -214,9 +271,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* Currency */ = {
+		1D6058900D05DD3D006BFB54 /* Currency Free */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Currency" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Currency Free" */;
 			buildPhases = (
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
@@ -226,9 +283,9 @@
 			);
 			dependencies = (
 			);
-			name = Currency;
+			name = "Currency Free";
 			productName = Forex;
-			productReference = 1D6058910D05DD3D006BFB54 /* Currency.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* CurrencyConverter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -250,7 +307,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* Currency */,
+				1D6058900D05DD3D006BFB54 /* Currency Free */,
 			);
 		};
 /* End PBXProject section */
@@ -293,6 +350,7 @@
 				EF4A93170E54411B00B723E2 /* Reachability.m in Sources */,
 				EF8CB6EB0E5C32CA0060EAF5 /* AddCell.m in Sources */,
 				037C1E8C0F6FD64500D8268E /* DetailViewController.m in Sources */,
+				03FB834D10A9C928008D3D63 /* AdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,7 +372,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Forex_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
-				PRODUCT_NAME = Currency;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/AdMob\"",
+				);
+				PRODUCT_NAME = CurrencyConverter;
 			};
 			name = Debug;
 		};
@@ -331,7 +393,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Forex_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
-				PRODUCT_NAME = Currency;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/AdMob\"",
+				);
+				PRODUCT_NAME = CurrencyConverter;
 			};
 			name = Release;
 		};
@@ -339,14 +405,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jaroslaw Szpilewski";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5B3FC4D2-DBFF-4B1B-B1FF-F232BF7EF1E6";
-				SDKROOT = iphoneos2.0;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos3.1.2;
 			};
 			name = Debug;
 		};
@@ -389,16 +455,20 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Forex_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
-				PRODUCT_NAME = Currency;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/AdMob\"",
+				);
+				PRODUCT_NAME = CurrencyConverter;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DCB00188-66CE-49C3-8575-F3632DB92DE6";
-				SDKROOT = iphoneos3.0;
+				SDKROOT = iphoneos3.1.2;
 			};
 			name = Distribution;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Currency" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Currency Free" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
